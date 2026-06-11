@@ -13,6 +13,8 @@
   "nav.positions": "招聘信息",
   "nav.news": "新闻动态",
   "nav.toggleMenu": "切换菜单",
+  "nav.switchToLight": "切换到亮色模式",
+  "nav.switchToDark": "切换到暗色模式",
   "nav.brand": "您的实验室名称",
   "nav.university": "您的大学",
   "nav.universityAlt": "您的大学",

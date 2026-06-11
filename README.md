@@ -13,7 +13,7 @@ Clone this template to spin up a multilingual (English / 简体中文) site for 
 - **Markdown-first content** — add members, news, publications, projects, and positions as `.md` files
 - **Multilingual** — English and Simplified Chinese out of the box (extensible)
 - **Co-located assets** — images/videos live next to their Markdown
-- **Themable** — pick a preset in `nuxt.config.ts`, then fine-tune tokens in `styles/_tokens.css`
+- **Themeable** — pick a preset in `nuxt.config.ts`, then fine-tune tokens in `styles/_tokens.css`
 - **Static deployment** — `pnpm generate` → deploy to GitHub Pages or any static host
 
 ## Tech Stack
@@ -43,8 +43,6 @@ pnpm dev
 ```
 
 Open <http://localhost:3000>. You should see the homepage with a **Demo Member** and a **Welcome** news post.
-
-> If you hit `connect EINVAL`, it's a known Nuxt issue ([nuxt/nuxt#35253](https://github.com/nuxt/nuxt/issues/35253)); the dev script already sets `TMPDIR=/tmp` as a workaround.
 
 ## Project Structure
 

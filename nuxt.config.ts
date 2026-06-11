@@ -4,10 +4,6 @@ import { resolve } from 'path'
 // Set before markuxt's nuxt.config is evaluated
 process.env.MARKUXT_ROOT_DIR = process.env.MARKUXT_ROOT_DIR || 'src/'
 
-// Available presets: 'ocean' | 'forest' | 'sunset' | 'slate'
-const themePreset = 'ocean'
-const themeMode = 'auto'
-
 export default defineNuxtConfig({
     // Keep the app source at the repo root so template-level layouts override markuxt's defaults.
     srcDir: '.',
@@ -50,13 +46,6 @@ export default defineNuxtConfig({
     // Field contract: see node_modules/@markuxt/markuxt/app.config.d.ts
     appConfig: {
         markuxt: {
-            // Theme preset — switch this in repo config, not in the frontend UI.
-            // Available presets: 'ocean' | 'forest' | 'sunset' | 'slate'
-            theme: {
-                preset: themePreset,
-                mode: themeMode,
-            },
-
             // TODO: replace with your institution/lab logo (place under src/public/images/)
             logo: {
                 src: '/images/logo.png',

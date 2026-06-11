@@ -13,6 +13,8 @@
   "nav.positions": "Positions",
   "nav.news": "News",
   "nav.toggleMenu": "Toggle menu",
+  "nav.switchToLight": "Switch to light mode",
+  "nav.switchToDark": "Switch to dark mode",
   "nav.brand": "Your Lab Name",
   "nav.university": "Your University",
   "nav.universityAlt": "Your University",
