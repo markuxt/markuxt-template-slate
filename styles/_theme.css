@@ -1,3 +1,91 @@
-/* Seaside is the default theme in markuxt — no color overrides needed.
- * This file is intentionally left empty. Customize _tokens.css for
- * spacing, typography, and radius adjustments. */
+/* Slate theme — overrides the default seaside color variables. */
+
+:root {
+  --color-primary: #202939;
+  --color-primary-light: #384658;
+  --color-accent: #c46a2d;
+  --color-accent-hover: #a55420;
+  --color-secondary: #31748f;
+  --color-secondary-light: #67a9c2;
+  --color-bg: #f6f4ef;
+  --color-bg-alt: #fffdf9;
+  --color-text: #1f2937;
+  --color-text-muted: #6b7280;
+  --color-border: #e4dfd4;
+
+  --surface-brand: #202939;
+  --surface-brand-strong: #384658;
+  --page-grid-color: rgb(32 41 57 / 0.022);
+  --page-grid-color-strong: rgb(32 41 57 / 0.036);
+  --header-bg: rgb(246 244 239 / 0.9);
+  --header-bg-strong: rgb(255 253 249 / 0.96);
+  --header-shadow: 0 2px 20px rgb(32 41 57 / 0.1);
+  --nav-hover-bg: rgb(196 106 45 / 0.1);
+  --accent-soft: rgb(196 106 45 / 0.13);
+  --accent-shadow: 0 10px 20px -5px rgb(196 106 45 / 0.34);
+  --accent-shadow-soft: 0 4px 12px rgb(196 106 45 / 0.24);
+  --mermaid-node-bg: #eef1f4;
+  --mermaid-node-border: #31748f;
+  --mermaid-node-text: #202939;
+  --mermaid-line: #6b7280;
+}
+
+html[data-color-mode='dark'] {
+  --color-primary: #e6edf3;
+  --color-primary-light: #b8c6d4;
+  --color-accent: #e39a64;
+  --color-accent-hover: #efb27f;
+  --color-secondary: #5ba6c3;
+  --color-secondary-light: #8cc4d8;
+  --color-bg: #101316;
+  --color-bg-alt: #1a2329;
+  --color-text: #ebeff3;
+  --color-text-muted: #9aa8b4;
+  --color-border: #33404a;
+  --surface-brand: #202939;
+  --surface-brand-strong: #384658;
+  --page-grid-color: rgb(91 166 195 / 0.045);
+  --page-grid-color-strong: rgb(91 166 195 / 0.075);
+  --header-bg: rgb(16 19 22 / 0.82);
+  --header-bg-strong: rgb(26 35 41 / 0.94);
+  --header-shadow: 0 14px 40px rgb(0 0 0 / 0.24);
+  --nav-hover-bg: rgb(91 166 195 / 0.12);
+  --accent-soft: rgb(227 154 100 / 0.18);
+  --accent-shadow: 0 12px 24px -6px rgb(227 154 100 / 0.24);
+  --accent-shadow-soft: 0 4px 16px rgb(227 154 100 / 0.16);
+  --mermaid-node-bg: #20303a;
+  --mermaid-node-border: #5ba6c3;
+  --mermaid-node-text: #ebeff3;
+  --mermaid-line: #9aa8b4;
+}
+
+@media (prefers-color-scheme: dark) {
+  html[data-color-mode='auto'] {
+    --color-primary: #e6edf3;
+    --color-primary-light: #b8c6d4;
+    --color-accent: #e39a64;
+    --color-accent-hover: #efb27f;
+    --color-secondary: #5ba6c3;
+    --color-secondary-light: #8cc4d8;
+    --color-bg: #101316;
+    --color-bg-alt: #1a2329;
+    --color-text: #ebeff3;
+    --color-text-muted: #9aa8b4;
+    --color-border: #33404a;
+    --surface-brand: #202939;
+    --surface-brand-strong: #384658;
+    --page-grid-color: rgb(91 166 195 / 0.045);
+    --page-grid-color-strong: rgb(91 166 195 / 0.075);
+    --header-bg: rgb(16 19 22 / 0.82);
+    --header-bg-strong: rgb(26 35 41 / 0.94);
+    --header-shadow: 0 14px 40px rgb(0 0 0 / 0.24);
+    --nav-hover-bg: rgb(91 166 195 / 0.12);
+    --accent-soft: rgb(227 154 100 / 0.18);
+    --accent-shadow: 0 12px 24px -6px rgb(227 154 100 / 0.24);
+    --accent-shadow-soft: 0 4px 16px rgb(227 154 100 / 0.16);
+    --mermaid-node-bg: #20303a;
+    --mermaid-node-border: #5ba6c3;
+    --mermaid-node-text: #ebeff3;
+    --mermaid-line: #9aa8b4;
+  }
+}
