@@ -36,6 +36,18 @@
       "glob": "10.5.0",
       "prebuild-install": "7.1.3",
       "unplugin-vue-router": "0.19.2"
-    }
+    },
+    "onlyBuiltDependencies": [
+      "@parcel/watcher",
+      "b",
+      "d",
+      "e",
+      "esbuild",
+      "i",
+      "l",
+      "s",
+      "u",
+      "vue-demi"
+    ]
   }
 }
